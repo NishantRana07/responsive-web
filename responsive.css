@@ -1,0 +1,70 @@
+@media screen and (max-width:600px) 
+{
+    .nav
+    {
+        display:flex;
+        justify-content:center;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+        height:100%;
+        padding:10px;
+    }
+    .nav ul 
+    {
+        display:flex;
+        justify-content:center;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+    }
+    .nav ul li 
+    {
+        margin:5px 0px;
+    }
+    .image
+    {
+        width:30%;
+    }
+    .top
+    {
+        font-size:100%;
+    }
+    .below
+    {
+        font-size:200%;
+    }
+    .bottom
+    {
+        font-size:100%;
+    }
+    .catalog
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding:10px;
+    }
+    .c
+    {
+        margin:10px;
+        width:80%;
+    }
+}
+   
+
+@media screen and (max-width:820px)
+{
+    .ladki
+    {
+        display: none;
+    }
+    .body
+    {
+        height:60vh;
+        width:97%;
+    }
+    
+}
+     
